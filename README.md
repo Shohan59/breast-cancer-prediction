@@ -1,5 +1,4 @@
-# Breast Cancer Prediction - Main Version
-
+# Breast Cancer Prediction
 ## Project overview
 This project uses Logistic Regression to classify breast tumour records as malignant or benign using the Breast Cancer Wisconsin (Diagnostic) dataset.
 
