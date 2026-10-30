@@ -1,21 +1,58 @@
-# Merge Conflict Notes
+\# Merge Conflict Notes
 
-> Complete this file after you create and resolve the required README merge conflict on GitHub or locally. Do not claim that a conflict was resolved until you have actually performed the steps.
 
-## What caused the conflict?
-The same line in `README.md` was edited differently on the `main` branch and the `proposal` branch. Git could not automatically decide which version to keep when the branches were merged.
 
-## How I resolved it
-1. I opened the file marked as conflicted by Git.
-2. I reviewed both versions of the README line.
-3. I manually combined or selected the correct wording.
-4. I removed Git conflict markers (`<<<<<<<`, `=======`, and `>>>>>>>`).
-5. I saved the file, checked the final README, and committed the resolution.
+\## What happened?
 
-## Evidence to add
-- Screenshot of the merge conflict.
-- Screenshot of the resolved README.
-- Conflict-resolution commit hash or Pull Request link.
 
-## Final resolution
-[After resolving the actual conflict, briefly state the wording you kept and why.]
+
+A merge conflict occurred in README.md when merging the proposal branch into main.
+
+
+
+Both branches modified the same heading with different text.
+
+
+
+\## Conflicting changes
+
+
+
+Main branch:
+
+Breast Cancer Prediction - Main Version
+
+
+
+Proposal branch:
+
+Breast Cancer Prediction - Proposal Version
+
+
+
+\## How was it resolved?
+
+
+
+The conflict was resolved manually using Git Bash and Notepad.
+
+
+
+The Git conflict markers were removed, and the final heading was changed to:
+
+
+
+Breast Cancer Prediction
+
+
+
+The remaining README content was preserved.
+
+
+
+\## Final result
+
+
+
+The resolved README was staged and committed successfully to the main branch.
+
