@@ -1,4 +1,4 @@
-# Machine Learning-Based Breast Cancer Classification
+# Breast Cancer Prediction - Proposal Version
 
 ## Project overview
 This project uses Logistic Regression to classify breast tumour records as malignant or benign using the Breast Cancer Wisconsin (Diagnostic) dataset.
