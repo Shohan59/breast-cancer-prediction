@@ -27,7 +27,7 @@ How accurately can Logistic Regression classify breast tumours as malignant or b
 
 The project will use the Breast Cancer Wisconsin (Diagnostic) dataset from the UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
 
-The dataset contains 569 observations and 30 continuous predictor features. The target variable identifies each record as malignant or benign. The features describe characteristics of cell nuclei measured from digitised fine-needle aspirate images. The notebook will load the dataset using `sklearn.datasets.load\_breast\_cancer`, which provides a convenient copy of this established dataset.
+The dataset contains 569 observations and 30 continuous predictor features. The target variable identifies each record as malignant or benign. The features describe characteristics of cell nuclei measured from digitised fine-needle aspirate images. The notebook will load the dataset using `sklearn.datasets.load\\\_breast\\\_cancer`, which provides a convenient copy of this established dataset.
 
 ## 5\. Proposed method
 
@@ -56,4 +56,6 @@ The expected outcome is a trained Logistic Regression model and a transparent ev
 * UCI Machine Learning Repository. (n.d.). *Breast Cancer Wisconsin (Diagnostic).* https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
 * *Critical Risk Assessment, Diagnosis, and Survival Analysis of Breast Cancer.* (2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11119540/
 * Chetry, M., et al. (2025). *Early detection and analysis of accurate breast cancer for improved diagnosis using deep supervised learning for enhanced patient outcomes.* PeerJ Computer Science. https://doi.org/10.7717/peerj-cs.2784
+
+The project will use a training and testing split to evaluate the classification model. Model performance will be assessed using accuracy, precision, recall, F1-score, and a confusion matrix.
 
